@@ -3,6 +3,8 @@
 A spring boot enabled hello world application
 
 
+docker pull mohankrishna225/springboot-hello
+
 
 
 
