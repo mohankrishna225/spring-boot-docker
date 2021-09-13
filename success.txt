@@ -1,0 +1,104 @@
+    1  clear
+    2  ls
+    3  sudo cp minikube-linux-amd64 /usr/local/bin/minikube
+    4  sudo chmod 755 /usr/local/bin/minikube
+    5  minikube version
+    6  curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
+    7  chmod +x ./kubectl
+    8  sudo mv ./kubectl /usr/local/bin/kubectl
+    9  kubectl version -o json
+   10  minikube start
+   11  clear
+   12  l
+   13  apt install openjdk
+   14  apt install jva
+   15  apt install java
+   16  apt update -y
+   17  wget https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+   18  apt install docker.io -y
+   19  java
+   20  apt install openjdk-11-jre-headle
+   21  apt install openjdk-11-jre-headless
+   22  clear
+   23  ls
+   24  apt install maven -y
+   25  git 
+   26  git clone https://github.com/gazgeek/springboot-helloworld.git
+   27  ls
+   28  clear
+   29  ls
+   30  cd springboot-helloworld/
+   31  ls
+   32  tree
+   33  apt install tree
+   34  clear
+   35  ls
+   36  tree
+   37  docker pull gazgeek/springboot-helloworld
+   38  docker images
+   39  kubectl create deployment spring-example --image=gazgeek/springboot-helloworld -o yaml > spring-deployment.yaml
+   40  kubectl create -f spring-deployment.yaml 
+   41  ls
+   42  clear
+   43  kubectl get deploymeny
+   44  kubectl get deploymenyt
+   45  kubectl get deployment
+   46  kubectl get pods
+   47  kubectl get pods -o wide
+   48  kubectl expose deployment spring-example --type=NodePort
+   49  kubectl expose deployment spring-example --type=NodePort --port=8080
+   50  kubectl get services
+   51  clear
+   52  l
+   53  cd springboot-helloworld/
+   54  ls
+   55  vi Dockerfile 
+   56  clear
+   57  ls
+   58  vi spring-deployment.yaml 
+   59  kubectl get pods
+   60  kubectl get pods - wide
+   61  kubectl get pods -o wide
+   62  kubectl get services
+   63  kubectl get deployment
+   64* kubectl apply deployment spring-example --image=gazgeek/springboot-helloworld -o yaml > spring-deployment.yaml
+   65  kubectl get deployment
+   66  clear
+   67  ls
+   68  tree
+   69  cd src/main/java/com/gazgeek/helloworld/
+   70  ls
+   71  cd controller/
+   72  ls
+   73  vi HomeController.java 
+   74  kubectl run hello-minikube --image=gcr.io/google_containers/echoserver:1.4 --port=8080
+   75  clear
+   76  ls
+   77  kubectl get pdos
+   78  kubectl get pods
+   79  kubectl expose deployment hello-minikube --type=NodePort
+   80  kubectl create hello-minikube --image=gcr.io/google_containers/echoserver:1.4 --port=8080 -o yaml > hello.yaml
+   81  kubectl create deployment hello-minikube --image=gcr.io/google_containers/echoserver:1.4 --port=8080 -o yaml > hello.yaml
+   82  kubectl get deployments
+   83  kubectl expose deployment hello-minikube --type=NodePort
+   84  kubectl get services
+   85  clear
+   86  kubectl get services
+   87  clear
+   88  ls
+   89  cd ..
+   90  cd /
+   91  ls
+   92  clear
+   93  ls
+   94  cd ~
+   95  ls
+   96  clear
+   97  ls
+   98  cd springboot-helloworld/
+   99  ls
+  100  vi spring-deployment.yaml 
+  101  ls
+  102  clear
+  103  ls
+  104  history > success.txt
